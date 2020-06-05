@@ -2,14 +2,7 @@
   var config = {
 
     // paste database config disini
-  apiKey: "AIzaSyAsf8M4SzeuZgZdvEIJ9bjEkc9fSY5BOzg",
-  authDomain: "unbk-data.firebaseapp.com",
-  databaseURL: "https://unbk-data.firebaseio.com",
-  projectId: "unbk-data",
-  storageBucket: "unbk-data.appspot.com",
-  messagingSenderId: "174806904283",
-  appId: "1:174806904283:web:15e706446421696ef28bfe",
-  measurementId: "G-EHT5WGBQ2Q"
+ 
     
   };
 
