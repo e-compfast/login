@@ -13,16 +13,16 @@
   auth.onAuthStateChanged(function(cek_user) {
     if (cek_user) {
       var user = firebase.auth().currentUser;
-
+      var email= user.email;
+      var emailVerified = user.emailVerified;
+      if (!emailVerified){
+        $("#verified-alert").fadeIn("slow");
+      }else{
         window.location.href = "/quiz";
-      
+      }
     } else {
-      //tidak ada user terotentikasi
-
       console.log("Status belum diverifikasi");
     }
-
-     
   });
 
   $( "#btn-signin" ).click(function(e) {
